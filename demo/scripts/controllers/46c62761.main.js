@@ -1,6 +1,6 @@
 'use strict';
 
-CondoSolApp.controller('MainCtrl', function($scope) {
+CondoSolApp.controller('MainCtrl', ["$scope", function($scope) {
 	$scope.issue = {
 		title: "Something is wrong with the elevator",
 		text: "Arcu non odio euismod lacinia. Augue mauris augue neque gravida in fermentum et sollicitudin. Tristique nulla aliquet enim tortor. Velit aliquet sagittis id consectetur purus. A cras semper auctor neque vitae tempus quam pellentesque nec.",
@@ -118,4 +118,4 @@ CondoSolApp.controller('MainCtrl', function($scope) {
 		$scope.newText = '';
 	};
 
-});
+}]);

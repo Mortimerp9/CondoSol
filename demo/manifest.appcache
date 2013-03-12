@@ -1,16 +1,6 @@
-# Error: Unknown provider: aProvider <- a
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:2627
-    at getService (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2755)
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:2632
-    at getService (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2755)
-    at invoke (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2773)
-    at instantiate (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2805)
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:4620
-    at update (http://localhost:3501/scripts/vendor/d10639ae.angular.js:13692)
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:8002 (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Tue Mar 12 2013 14:26:40 GMT-0300 (BRT)
+# Time: Tue Mar 12 2013 14:35:26 GMT-0300 (BRT)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/#/
@@ -33,11 +23,14 @@ CACHE MANIFEST
 CACHE:
 http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800
 http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css
+http://tinyurl.com/aakz3cz
+http://tinyurl.com/aevdnze
+http://tinyurl.com/ajapym4
+http://tinyurl.com/axm4om9
 http://www.google-analytics.com/ga.js
-scripts/5db5f19c.scripts.js
+scripts/bfaec817.scripts.js
 scripts/vendor/d10639ae.angular.js
 styles/21c2d9a7.main.css
-{{nextUser.avatar}}
 
 NETWORK:
 *
