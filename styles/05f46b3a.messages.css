@@ -1,0 +1,438 @@
+/* line 1, ../../app/styles/messages.scss */
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10em;
+}
+
+/* line 7, ../../app/styles/messages.scss */
+.issue {
+  min-height: 80px;
+  min-width: 120px;
+  height: 100%;
+  background-color: #f4f4f0;
+  position: relative;
+  border-radius: 0px;
+  border-color: #c0c0c0;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 23, ../../app/styles/messages.scss */
+.issue div.widget {
+  color: #949c9f;
+  text-shadow: 1px 1px #fff;
+}
+/* line 27, ../../app/styles/messages.scss */
+.issue span.username {
+  font-weight: bold;
+  opacity: 1;
+}
+/* line 31, ../../app/styles/messages.scss */
+.issue span.timestamp {
+  font-size: 80%;
+}
+/* line 34, ../../app/styles/messages.scss */
+.issue div.message {
+  text-align: justify;
+  word-wrap: break-word;
+  color: #9c9ca5;
+  text-shadow: 1px 1px #fff;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+/* line 45, ../../app/styles/messages.scss */
+.entry {
+  height: 190px;
+}
+
+/* line 48, ../../app/styles/messages.scss */
+.entry .mybox {
+  margin-left: 110px;
+  background-color: #f4f4f0;
+  position: relative;
+  border-radius: 0px;
+  border-color: #c0c0c0;
+  border-top-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+/* line 59, ../../app/styles/messages.scss */
+.mybox:before {
+  content: "";
+  border-color: transparent #c0c0c0 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -10px;
+  left: -30px;
+}
+
+/* line 71, ../../app/styles/messages.scss */
+.mybox:after {
+  content: "";
+  border-color: transparent #f4f4f0 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -10px;
+  left: -29px;
+}
+
+/* line 83, ../../app/styles/messages.scss */
+.mybox .textarea-wrapper {
+  height: 100%;
+  background-color: #dce1e4;
+  resize: none;
+  border-color: #808080;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1px;
+  box-shadow: inset 0px 2px 5px #c0c0c0;
+}
+
+/* line 93, ../../app/styles/messages.scss */
+.mybox textarea {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+  font-family: "Open Sans";
+  text-shadow: 1px 1px #fafafa;
+  font-size: 12px;
+  resize: none;
+  border: none;
+  outline: none;
+  bottom: -40px;
+}
+
+/* line 106, ../../app/styles/messages.scss */
+.mybox .actions {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 1px dotted #808080;
+}
+
+/* line 114, ../../app/styles/messages.scss */
+.mybox .actions .send {
+  height: 38px;
+}
+
+/* line 117, ../../app/styles/messages.scss */
+.post {
+  height: 110px;
+  min-height: 110px;
+  margin-bottom: 2px;
+}
+
+/* line 122, ../../app/styles/messages.scss */
+.mybox-middle {
+  margin-left: 110px;
+  min-height: 80px;
+  min-width: 120px;
+  height: 100%;
+  background-color: #f4f4f0;
+  position: relative;
+  border-radius: 0px;
+  border-color: #c0c0c0;
+  border-top-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+
+/* line 138, ../../app/styles/messages.scss */
+div.post:nth-child(1) div.mybox-middle {
+  border-color: #c0c0c0;
+}
+
+/* line 141, ../../app/styles/messages.scss */
+div.post:nth-last-child(4) div.mybox-middle {
+  background-color: #dce1e4;
+  border-color: #a0a0a0;
+  border-top-color: #eee;
+}
+
+/* line 146, ../../app/styles/messages.scss */
+div.post:nth-last-child(4) div.mybox-middle:before {
+  content: "";
+  border-color: transparent #a0a0a0 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -10px;
+  left: -30px;
+}
+
+/* line 158, ../../app/styles/messages.scss */
+div.post:nth-last-child(4) div.mybox-middle:after {
+  content: "";
+  border-color: transparent #dce1e4 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -10px;
+  left: -29px;
+}
+
+/* line 170, ../../app/styles/messages.scss */
+.mybox-middle:before {
+  content: "";
+  border-color: transparent #c0c0c0 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -10px;
+  left: -30px;
+}
+
+/* line 182, ../../app/styles/messages.scss */
+.mybox-middle:after {
+  content: "";
+  border-color: transparent #f4f4f0 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -10px;
+  left: -29px;
+}
+
+/* line 194, ../../app/styles/messages.scss */
+.mybox-middle div.widget {
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -30px;
+  margin-left: 10px;
+  color: #949c9f;
+  text-shadow: 1px 1px #fff;
+}
+
+/* line 202, ../../app/styles/messages.scss */
+.mybox-middle span.username {
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* line 206, ../../app/styles/messages.scss */
+.mybox-middle span.timestamp {
+  font-size: 80%;
+}
+
+/* line 209, ../../app/styles/messages.scss */
+div.post:nth-last-child(4) div {
+  text-shadow: 1px 1px #fafafa;
+  color: #404040;
+}
+
+/* line 213, ../../app/styles/messages.scss */
+.mybox-middle div.message {
+  text-align: justify;
+  margin-left: 120px;
+  margin-right: 15px;
+  word-wrap: break-word;
+  color: #9c9ca5;
+  text-shadow: 1px 1px #fff;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+/* line 224, ../../app/styles/messages.scss */
+.mybox-middle div.message:nth-last-child(1) {
+  padding-top: 10px;
+}
+
+/* line 227, ../../app/styles/messages.scss */
+.sidebar {
+  position: relative;
+  height: 100%;
+  width: 108px;
+  float: left;
+}
+
+/* line 233, ../../app/styles/messages.scss */
+.avatar {
+  width: 76px;
+  height: 76px;
+  float: left;
+  background-color: #f4f4f4;
+  margin-left: 13px;
+  border-color: #c0c0c0;
+  border-style: solid;
+  border-radius: 3px;
+  box-shadow: 0 0 4px #d0d0d0;
+  border-width: 1px;
+  position: absolute;
+  top: 50%;
+  margin-top: -36px;
+}
+
+/* line 249, ../../app/styles/messages.scss */
+.avatar img.author {
+  max-width: 80%;
+  max-height: 80%;
+  padding: 10%;
+}
+
+/* line 254, ../../app/styles/messages.scss */
+.vote .score {
+  margin-top: 15px;
+}
+/* line 256, ../../app/styles/messages.scss */
+.vote .score .number {
+  font-size: 39px;
+  line-height: 50px;
+  float: left;
+  font-weight: bold;
+  padding-right: 10px;
+}
+/* line 263, ../../app/styles/messages.scss */
+.vote .score .vote-up {
+  display: block;
+  float: left;
+}
+/* line 267, ../../app/styles/messages.scss */
+.vote .score .vote-down {
+  display: block;
+  float: left;
+  position: relative;
+  top: 34px;
+  left: -14px;
+}
+
+/* line 277, ../../app/styles/messages.scss */
+.vote .score.voted .vote-up,
+.vote .score.voted .vote-down {
+  color: #CCC;
+}
+
+/* line 281, ../../app/styles/messages.scss */
+.vote .score.voted-up .number {
+  color: #5E7D4D;
+}
+
+/* line 286, ../../app/styles/messages.scss */
+.vote .score.voted-down .number {
+  color: #C74223;
+}
+
+/* ****** SOCIALIZER ****** */
+/* line 294, ../../app/styles/messages.scss */
+#socialize {
+  position: absolute;
+  width: 76px;
+  height: 25px;
+  border-radius: 3px;
+  opacity: 0;
+  font-size: 13px;
+  border: 1px solid #c0c0c0;
+  margin-left: 13px;
+  bottom: 0%;
+  margin-top: 45px;
+  z-index: 2;
+}
+
+/* line 307, ../../app/styles/messages.scss */
+#socialize #left {
+  float: left;
+  width: 24px;
+  height: 100%;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c0c0c0;
+}
+
+/* line 318, ../../app/styles/messages.scss */
+#socialize #centre {
+  display: block;
+  width: 24px;
+  height: 100%;
+  overflow: auto;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fff;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c0c0c0;
+}
+
+/* line 331, ../../app/styles/messages.scss */
+#socialize #right {
+  float: right;
+  width: 24px;
+  height: 100%;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fff;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* line 342, ../../app/styles/messages.scss */
+#socialize .social {
+  background: linear-gradient(to bottom, #f4f4f4 0%, #f4f4f4 100%);
+  background: -webkit-linear-gradient(top, #f4f4f4 0%, #f4f4f4 100%);
+}
+
+/* line 346, ../../app/styles/messages.scss */
+#socialize .social:hover {
+  background: linear-gradient(to bottom, #e5e5e5 0%, #dce1e4 100%);
+  background: -webkit-linear-gradient(top, #e5e5e5 0%, #dce1e4 100%);
+}
+
+/* line 350, ../../app/styles/messages.scss */
+#socialize .social:hover i {
+  color: #808080;
+}
+
+/* line 353, ../../app/styles/messages.scss */
+#socialize .social:active {
+  background: linear-gradient(to bottom, #dce1e4 0%, #f4f4f4 100%);
+  background: -webkit-linear-gradient(top, #dce1e4 0%, #f4f4f4 100%);
+}
+
+/* line 357, ../../app/styles/messages.scss */
+#socialize .social:active i {
+  color: #404040;
+}
+
+/* line 361, ../../app/styles/messages.scss */
+#socialize .social i {
+  position: absolute;
+  margin: 6px;
+  color: #949C9F;
+  text-shadow: 1px 1px #fff;
+  text-decoration: none;
+}
