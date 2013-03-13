@@ -1,0 +1,7 @@
+<div class="vote">
+  <div class="score"  ng-class="{up:'voted voted-up', down:'voted voted-down'}[votedOn.voted]">
+	<span class="number">{{votedOn.vote}}</span>
+	<i class="vote-up icon-chevron-up" ng-click="rateUp()"></i>
+	<i class="vote-down icon-chevron-down" ng-click="rateDown()"></i>
+  </div>
+</div>

@@ -7,6 +7,10 @@ var CondoSolApp = angular.module('CondoSolApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/issue/:issueId', {
+        templateUrl: 'views/issue.html',
+        controller: 'IssueCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
